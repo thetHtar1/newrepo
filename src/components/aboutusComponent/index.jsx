@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import semicol from '../../../psemicol.png'
+import semicol from '@/pages/assets/images/semicol.png'
 import aboutus2 from '@/pages/assets/images/aboutus2.png'
 import BrandValue from '@/pages/assets/animations/BrandValueAnimation'
 import Lottie from "lottie-react" 

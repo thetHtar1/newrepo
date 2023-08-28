@@ -5,8 +5,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Lottie from "lottie-react";
 import pagetransition from "@/pages/assets/animations/pagetransition";
 import Header from '../components/navbarComponent/Header';
-import Footer from '../components/footerComponent/Footer';
-import Footer1 from './footer1';
+import Footer1 from '@/pages/Footer1';
 
 export default function App({ Component, pageProps }) {
   

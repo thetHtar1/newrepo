@@ -32,15 +32,15 @@ import image30 from "@components/HomeComponent/customer_logo/Myanmar logo.png";
 import image32 from "@components/HomeComponent/customer_logo/posco logo.png";
 import image33 from "@components/HomeComponent/customer_logo/Rent logo.png";
 import image34 from "@components/HomeComponent/customer_logo/SamPar Oo logo.png";
-import image35 from "@components/HomeComponent/customer_logo/SKT logo.png";
-import image36 from "@components/HomeComponent/customer_logo/SMIDB logo.png";
+import image35 from "@components/HomeComponent/customer_logo/skt logo.png";
+import image36 from "@components/HomeComponent/customer_logo/smidb logo.png";
 import image37 from "@components/HomeComponent/customer_logo/STrnnd logo.png";
 import image38 from "@components/HomeComponent/customer_logo/Thai logo.png";
 import image39 from "@components/HomeComponent/customer_logo/Ulink logo.png";
 import image40 from "@components/HomeComponent/customer_logo/Vision logo.png";
 import image41 from "@components/HomeComponent/customer_logo/World Vision logo.png";
 import image42 from "@components/HomeComponent/customer_logo/YinThwy logo.png";
-import image43 from "@components/HomeComponent/customer_logo/YUQIU logo.png";
+import image43 from "@components/HomeComponent/customer_logo/Yuqiu logo.png";
 
 
 
