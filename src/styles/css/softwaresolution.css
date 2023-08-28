@@ -1,0 +1,40 @@
+
+@media (max-width: 870px) {
+.forward-button1{
+    margin-left: 38%;
+}
+.forward-button2{
+    margin-right: 38%;
+}
+}
+
+@media (max-width: 480px) {
+    .forward-button1{
+        margin-left: 25%;
+    }
+    .forward-button2{
+        margin-right: 25%;
+    }
+    }
+
+    @media (max-width: 340px) {
+        .forward-button1{
+            margin-left: 27%;
+        }
+        .forward-button2{
+            margin-right: 27%;
+        }
+        }
+
+        
+.forward-icon-container:hover .forward-icon path{
+stroke: white;
+}
+
+.forward-button2:hover .forward-icon path{
+    stroke: white;
+    }
+
+    .forward-button1:hover .forward-icon path{
+        stroke: white;
+        }

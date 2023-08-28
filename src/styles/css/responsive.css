@@ -1,0 +1,90 @@
+/* body{
+    background-color: red!important;
+} */
+
+
+/* header dropdown animation */
+
+.sideBorder{
+    box-sizing: border-box;
+    transition: all ease-in;
+    position: relative;
+    cursor: pointer;
+}
+
+.sideBorder:before{
+    position: absolute;
+    top:0;
+    background: red;
+    height: 0px;
+    display: block;
+    content: "";
+    width: 3px;
+    transition: 0.5s all ease-out;
+}
+.sideBorder:before{
+    bottom: 0;
+}
+
+.sideBorder:hover:before{
+    width: 3px;
+    height: 100%;
+}
+
+.sideBorderL:before{
+left:0
+}
+/* header dropdown animation */
+
+
+/* footer icon hover */
+.icon{
+    fill:black
+}
+
+.icon:hover{
+    fill:white
+}
+
+
+.linkedinicon{
+    margin-top: 7px;
+}
+/* footer icon hover */
+
+.underlineani:before{
+content:"";
+position: absolute;
+bottom: -2px;
+height: 2px;
+width: 100%;
+background: white;
+border-radius: 50px;
+transform: scaleX(0);
+transition: transform 0.2s linear;
+}
+
+.underlineani:hover:before{
+    transform: scaleX(1);
+}
+
+.headerUnderline:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+background: black;
+transform: scaleX(0);
+transition: transform 0.2s linear;
+}
+
+.headerUnderline:first:before{
+    transform: scaleX(1);
+
+}
+
+
+.project{
+    transition: 0.3s ease-in-out;
+}
