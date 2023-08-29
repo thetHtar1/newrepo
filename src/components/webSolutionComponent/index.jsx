@@ -91,7 +91,7 @@ export default function WebSolutionComponent() {
           </div>
     
           <div className="grid justify-items-center ">
-            <button className=" flex border-black border border-solid  px-2 rounded-2xl py-1 md:rounded-3xl hover:bg-black hover:text-white mt-4   ">For more details
+            <button className=" flex border-black border border-solid  px-2 rounded-2xl py-1 md:rounded-3xl hover:bg-black hover:text-white mt-4 text-black  ">For more details
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.33203 7.50065L12.4987 3.33398L16.6654 7.50065" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M3.33203 16.6673H9.16536C10.0494 16.6673 10.8973 16.3161 11.5224 15.691C12.1475 15.0659 12.4987 14.218 12.4987 13.334V3.33398" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
