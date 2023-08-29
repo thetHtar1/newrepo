@@ -66,7 +66,7 @@ const SubLinks = () => {
                                                         <h1 className="inter text-lg text-gray-700 font-semibold ml-2">
                                                             {oursubmenu.title}
                                                         </h1>
-                                                        <h1 className='inter text-sm text-gray-600  ml-2'>{oursubmenu.desc}</h1>
+                                                        <p className='inter text-sm text-gray-600  ml-2'>{oursubmenu.desc}</p>
                                                     </div>
                                                 </Link>
                                             </div>
