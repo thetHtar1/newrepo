@@ -1,4 +1,4 @@
-import Menu from "@/Components/menu/Menu"
+import Menu from "../../components/menu/Menu"
 
 const NewsAndEvents=()=>{
     return(

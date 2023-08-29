@@ -1,9 +1,9 @@
 'use client'
-import Nocareer from '@/app/pages/nocareer/Nocareer.json'
+import Nocareer from './Nocareer.json'
 import Lottie from "lottie-react";
-import Menu from '@/Components/menu/Menu'
-import FooterCurve from '@/Components/FooterCurve';
-import Footer from '@/Components/footer/Footer';
+import Menu from '../../components/menu/Menu'
+import FooterCurve from '../../components/FooterCurve';
+import Footer from '../../components/footer/Footer';
 
 export default function NoCareerAni (){
     return(

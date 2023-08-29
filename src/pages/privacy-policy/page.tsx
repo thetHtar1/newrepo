@@ -1,7 +1,7 @@
-import FooterCurve from '@/Components/FooterCurve'
-import Footer from '@/Components/footer/Footer'
-import Menu from '@/Components/menu/Menu'
-import PrivacyPolicyComponent from '@/Components/PrivacyComponent'
+import FooterCurve from '../../components/FooterCurve'
+import Footer from '../../components/footer/Footer'
+import Menu from '../../components/menu/Menu'
+import PrivacyPolicyComponent from '../../components/PrivacyComponent'
 import React from 'react'
 
 export default function PrivacyAndPolicy() {
