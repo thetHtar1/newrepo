@@ -68,7 +68,7 @@ export default function Footer() {
                                 <input className={styles.Subscribe} placeholder="Your email Please"></input>
 
                                 <div className="flex justify-end">
-                                    <button className='border ml-2 rounded-full	px-2 py-1 text-sm right-2 md:text-xs text-white hover:bg-white hover:text-black duration-500 mt-3 sm:-right-16 sm:-top-3 justify-end xs:ms-50' >Subscribe</button>
+                                    <button className='border border-solid border-white ml-2 rounded-full	px-2 py-1 text-white text-sm right-2 md:text-xs text-white hover:bg-white hover:text-black duration-500 mt-3 sm:-right-16 sm:-top-3 justify-end xs:ms-50' >Subscribe</button>
                                 </div>
                             </div>
                         </div>

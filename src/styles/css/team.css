@@ -33,7 +33,7 @@
   .nameAndPosition{
     font-size: 14px;
     color: #000;
-    margin-top: 190px;
+    margin-top: 196px;
     z-index: 3;
     transition: color 0.3s ease-out;
     width: 100%;
@@ -56,7 +56,7 @@ border: 1px solid #777676;
   @media (max-width: 768px) {
     .card {
       width: 180px;
-      height: 320px;
+      height: 310px;
       background: #fff;
 
     }

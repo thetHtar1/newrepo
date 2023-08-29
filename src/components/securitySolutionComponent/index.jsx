@@ -70,7 +70,7 @@ export default function SecurityComponent() {
             <h1 className="text-sm font-normal	ss:text-base text-black">
                 Solutions Availiable in Nextwork and Standalone Solition.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
@@ -80,7 +80,7 @@ export default function SecurityComponent() {
                 H265 Models with Starlight Technology and support 4K Resolutions. Elevator Access Control
                 System Allow people access to certain floors within a sechduled time frame.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
@@ -89,7 +89,7 @@ export default function SecurityComponent() {
             <h1 className="text-sm font-normal ss:text-base	text-black">
                 Used to allow a person to address a large public areas.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
@@ -99,7 +99,7 @@ export default function SecurityComponent() {
            Standalone intercom system used to manage calls made at the entrance to a 
            building with access controlled by audiovisual communication between inside and outside. 
                      </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         </div>
         <div className="flex flex-col gap-4 basis-1/2 securtiy-body-items" ref={(ref) => (divRefs.current[1] = ref)}>
@@ -112,7 +112,7 @@ export default function SecurityComponent() {
                 monoxide or other
                 emergencies are present.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold ss:text-xl text-black">
@@ -122,7 +122,7 @@ export default function SecurityComponent() {
                 Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="text-black underline text-sm font-normal ss:text-base">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold ss:text-xl text-black">
@@ -132,7 +132,7 @@ export default function SecurityComponent() {
             Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
             </h1>
-            <button className="underline text-sm font-normal ss:text-base">Get more info</button>
+            <button className="text-black underline text-sm font-normal ss:text-base">Get more info</button>
         </div>
         </div>
        </div>
