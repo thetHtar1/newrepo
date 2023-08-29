@@ -9,7 +9,6 @@ export default function MeetTeamComponent() {
 
 
 
-  console.log(teamManber, ` hello worlg doog to go `)
 
 
   useEffect(() => {

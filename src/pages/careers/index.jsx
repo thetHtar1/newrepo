@@ -8,7 +8,7 @@ export default function Careers() {
   return (
     <>
     <Menu/>
-    <CareersComponent/>
+   {/* <CareersComponent/> */}
     <FooterCurve/>
     <Footer/>
 
