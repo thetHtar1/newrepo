@@ -63,9 +63,9 @@ const SubLinks = () => {
                                                                         <div  className="flex flex-cols-2 ">
                                                 <Link href={oursubmenu.setUrl}>
                                                     <div className='hover-leftline-animation'>
-                                                        <h1 className="inter text-lg text-gray-700 font-semibold ml-2">
+                                                        <h6 className="inter text-lg text-gray-700 font-semibold ml-2">
                                                             {oursubmenu.title}
-                                                        </h1>
+                                                        </h6>
                                                         <p className='inter text-sm text-gray-600  ml-2'>{oursubmenu.desc}</p>
                                                     </div>
                                                 </Link>
