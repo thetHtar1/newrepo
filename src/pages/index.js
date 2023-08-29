@@ -1,10 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Header from '../components/navbarComponent/Header'
-import Footer from '../components/footerComponent/Footer'
-import HomeBody from '../components/HomeComponent/HomeBody'
-import Cookies from '../components/footerComponent/cookie'
-
+import Cookie from '../pages/cookie'
+import HomePage from '../pages/Home'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -13,9 +10,9 @@ export default function Home() {
    <main className=''>
     
     {/* <Header/> */}
-    <HomeBody/>
+    <HomePage/>
     {/* <Curve/> */}
-<Cookies/>
+<Cookie/>
 
 
       {/* <Footer/> */}

@@ -1,12 +1,10 @@
+'use client'
 import Image from "next/image"
-import callImg1 from '@/pages/assets/images/callcenter1.png'
-import callImg2 from '@/pages/assets/images/callcenter2.png'
-import callImg3 from '@/pages/assets/images/callcenter3.png'
-import callImg4 from '@/pages/assets/images/callcenter4.png'
-import Header from "../navbarComponent/Header"
-import Footer from "../footerComponent/Footer"
+import callImg1 from '../../../public/images/call.jpg'
+import callImg2 from '../../../public/images/callcenter4.jpg'
+import callImg3 from '../../../public/images/callcenter3.jpg'
+import callImg4 from '../../../public/images/callcenter2.jpg'
 import { useState, useRef, useEffect } from "react"
-
 export default function CallCenterComponent() {
     const [isVisible, setIsVisible] = useState(false);
     const [isVisibleSec, setIsVisibleSec] = useState(false);
@@ -104,9 +102,9 @@ export default function CallCenterComponent() {
  return(
     <>
     {/* <Header/> */}
-    <div className=" px-4 ss:px-8 lg:px-16 mt-4 mb-32 ">
+    <div className=" px-4 ss:px-8 lg:px-16 mt-4 mb-32 text-black ">
         <div className="mt-[86px] sm:mt-[118px]">
-            <h1 className="rany text-4xl font-medium lg:text-7xl callcenter-h1">
+            <h1 className="rany text-4xl font-medium lg:text-7xl callcenter-h1 text-black">
             Call Centre & 
             CRM Solutions
             </h1>
@@ -118,54 +116,54 @@ export default function CallCenterComponent() {
         </div>
         <div className="mt-7 flex flex-col gap-5">
             <div className="border-b-2 border-black sm:border-0 pb-4 sm:flex sm:flex-row sm:gap-4 sm:items-center lg:gap-10">
-                <h1 className="rany font-medium text-xl sm:hidden">IP PBX</h1>
-                <div className="sm:basis-1/2">
-                    <Image className="mt-4 sm:mt-0 h-full w-full" src={callImg1} alt="callImg"/>
+                <h1 className="rany font-medium text-xl sm:hidden text-black">IP PBX</h1>
+                <div className="sm:basis-1/2 ">
+                    <Image className="mt-4 sm:mt-0 h-full w-full rounded " src={callImg1} alt="callImg"/>
                 </div>
                 <div className="sm:basis-1/2 callcenter-para">
-                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl">IP PBX</h1>
+                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl text-black">IP PBX</h1>
                 <p className="font-normal text-xs inter mt-3 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
                      </div>
             </div>
             <div className="border-b-2 border-black sm:border-0 pb-4 sm:flex sm:flex-row sm:gap-4 sm:items-center lg:gap-10">
-                <h1  className="rany font-medium text-xl sm:hidden">Call Centre Dialer</h1>
+                <h1  className="rany font-medium text-xl sm:hidden text-black">Call Centre Dialer</h1>
               
                 <div ref={textContainerSecRef} className={`fade-scroll sm:basis-1/2 ${isVisibleSec ? 'fade-in-div' : ''}`}>
-                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl sm:text-right">Call Centre Dialer</h1>
+                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl sm:text-right text-black">Call Centre Dialer</h1>
                 <p className="hidden sm:block font-normal text-xs inter mt-3 lg:text-base  sm:text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
                      </div>
                      <div className="sm:basis-1/2">
-                    <Image  className="mt-4 sm:mt-0 h-full w-full" src={callImg2} alt="callImg"/>
+                     <Image className="mt-4 sm:mt-0 h-full w-full rounded " src={callImg2} alt="callImg"/>
                 </div>
                 <p className=" sm:hidden font-normal text-xs inter mt-3 lg:text-base  sm:text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
             </div>
             <div className="border-b-2 border-black sm:border-0 pb-4 sm:flex sm:flex-row sm:gap-4 sm:items-center lg:gap-10">
-                <h1  className="rany font-medium text-xl sm:hidden">Video Conferencing</h1>
+                <h1  className="rany font-medium text-xl sm:hidden text-black">Video Conferencing</h1>
                 <div className="sm:basis-1/2 ">
-                    <Image  className="mt-4 sm:mt-0 h-full w-full" src={callImg3} alt="callImg"/>
+                <Image className="mt-4 sm:mt-0 h-full w-full rounded " src={callImg3} alt="callImg"/>
                 </div>
                 <div className={`item sm:basis-1/2 ${
               isVisible ? "fade-and-scroll-right-to-left" : ""
             }`}
             ref={textContainerRef}>
-                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl">Video Conferencing</h1>
+                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl text-black">Video Conferencing</h1>
                 <p className="font-normal text-xs inter mt-3 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
                      </div>
             </div>
             <div className="border-b-2 border-black sm:border-0 pb-4 sm:flex sm:flex-row sm:gap-4 sm:items-center lg:gap-10">
-                <h1  className="rany font-medium text-xl sm:hidden">IVR</h1>
+                <h1  className="rany font-medium text-xl sm:hidden text-black">IVR</h1>
               
                 <div ref={textContainerThirdRef} className={`fade-scroll sm:basis-1/2 ${isVisibleThird ? 'fade-in-div' : ''}`}>
-                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl  sm:text-right">IVR</h1>
+                <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl  sm:text-right text-black">IVR</h1>
                 <p className="hidden sm:block font-normal text-xs inter mt-3 lg:text-base  sm:text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
                      </div>
                      <div className="sm:basis-1/2">
-                    <Image  className="mt-4 sm:mt-0 h-full w-full" src={callImg4} alt="callImg"/>
+                     <Image className="mt-4 sm:mt-0 h-full w-full rounded " src={callImg4} alt="callImg"/>
                 </div>
                 <p className=" sm:hidden font-normal text-xs inter mt-3 lg:text-base  sm:text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                      ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>

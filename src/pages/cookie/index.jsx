@@ -1,10 +1,10 @@
-import CookieComponent from "@components/cookie";
+import Cookies from '../../components/cookieComponent';
 
 export default function Cookie (){
    
     return (
       <>
-      <CookieComponent/>
+      <Cookies/>
       </>
     )
 }

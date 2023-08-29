@@ -1,11 +1,9 @@
 import React , { useEffect,useState } from 'react';
-import '@/styles/globals.css'
+import '../styles/globals.css'
 import Head from "next/head";
 import { ChakraProvider } from "@chakra-ui/react";
 import Lottie from "lottie-react";
-import pagetransition from "@/pages/assets/animations/pagetransition";
-import Header from '../components/navbarComponent/Header';
-import Footer1 from '@/pages/Footer1';
+import pagetransition from "../pages/Home/pagetransition.json";
 
 export default function App({ Component, pageProps }) {
   
@@ -31,9 +29,7 @@ export default function App({ Component, pageProps }) {
         </>
       ) : (
          <>
-          <Header />
           <Component {...pageProps} />
-          <Footer1 />
          </>
       )}
 

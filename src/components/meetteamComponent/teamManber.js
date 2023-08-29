@@ -1,19 +1,18 @@
-import employee1 from "@components/meetteamComponent/team/john.jpg";
-import employee2 from '@/components/meetteamComponent/team/ally.jpg';
-import employee3 from '@components/meetteamComponent/team/matt.jpg';
-import employee4 from '@/components/meetteamComponent/team/htetsu.jpg'
-import employee5 from '@/components/meetteamComponent/team/sithu.jpg'
-// import employee6 from '@components/meetteamComponent/team/river.jpg';
-import employee7 from '@components/meetteamComponent/team/iris.jpg';
-import employee8 from '@components/meetteamComponent/team/liam.jpg';
-import employee9 from '@components/meetteamComponent/team/anna.jpg';
-import employee10 from '@components/meetteamComponent/team/wuki.jpg';
-import employee11 from '@components/meetteamComponent/team/lily.jpg';
-import employee12 from '@components/meetteamComponent/team/sonia.jpg';
-import employee13 from '@components/meetteamComponent/team/honey.jpg';
-import employee14 from '@components/meetteamComponent/team/chris.jpg';
-import newImg1 from '@components/meetteamComponent/team/newimg1.png';
-import newImg2 from '@components/meetteamComponent/team/newimg2.png'
+
+import employee1 from './team/ally.jpg';
+import employee2 from './team/htetsu.jpg';
+import employee3 from './team/alex.jpg';
+import employee4 from './team/sithu.jpg';
+import employee5 from './team/clover.png';
+import employee6 from './team/russ.jpg';
+import employee7 from './team/liam.jpg';
+import employee8 from './team/maria.jpg';
+import employee9 from './team/wuki.jpg';
+import employee10 from './team/lily.jpg';
+import employee11 from './team/sonia.jpg';
+import employee12 from './team/honey.jpg';
+import employee13 from './team/chris.jpg';
+
 
 
 
@@ -21,75 +20,70 @@ import newImg2 from '@components/meetteamComponent/team/newimg2.png'
 
 
 export const teamManber = [
+
     {
         img: employee1,
-        newImg : newImg1,
-        name: 'Kyaw Linn Maung',
-        position: 'Scrum Master'
-    },
-    {
-        img: employee2,
-        newImg : newImg2,
         name: 'Htoo Htoo Maw',
         position: 'Junior Product Owner'
     },
+
     {
-        img: employee3,
-        name: 'Min Khant',
-        position: 'Senior Frontend Developer'
-    },
-    {
-        img: employee4,
+        img: employee2,
         name: 'Htet Su Aung',
         position: 'Senior Full Stack Developer'
     },
     {
-        img: employee5,
+        img: employee3,
+        name: 'Aung Kyaw Htwe',
+        position: ' Full Stack Developer'
+    },
+    {
+        img: employee4,
         name: 'Si Thu Moe Myint',
         position: 'Frontend Developer'
     },
-    // {
-    //     img: employee6,
-    //     name: 'Khant Wai Thant',
-    //     position: 'Full Stack Developer'
-    // },
     {
-        img: employee7,
-        name: 'Chue Wathan Kyaw',
-        position: 'Mid-Frontend Developer'
+        img: employee5,
+        name: 'Thet Htar Wai',
+        position: 'Frontend  Developer'
     },
     {
-        img: employee8,
+        img: employee6,
+        name: 'Myo Thant Zaw',
+        position: 'Mid UI/UX Designer'
+    },
+    {
+        img: employee7,
         name: 'Kyaw Naing Oo',
         position: 'Junior Graphic Designer'
     },
     {
-        img: employee9,
-        name: 'Aye Chan Myint',
-        position: 'Business Analyst & QA'
+        img: employee8,
+        name: 'Myint Myat Moe',
+        position: 'Senior Business Analysis and QA'
     },
     {
-        img: employee10,
+        img: employee9,
         name: 'Kyaw Phyo Linn',
         position: 'Software Support & Tester'
     },
     {
-        img: employee11,
+        img: employee10,
         name: 'Htar Inzali',
         position: 'Junior Software Support & Tester'
     },
     {
-        img: employee12,
+        img: employee11,
         name: 'Su Hnin Aye',
         position: 'Senior Sales & Marketing Executive'
     },
     {
-        img: employee13,
+        img: employee12,
         name: 'Hanni Thein',
         position: 'HR & Admin Executive'
     },
     {
-        img: employee14,
+        img: employee13,
         name: 'Kyaw Naing Soe',
         position: 'Admin Assistant '
     },

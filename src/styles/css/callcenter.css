@@ -113,4 +113,11 @@
     opacity: 1;
     transform: translateX(0);
   } */
-  
+  .rounded{
+    border-radius: 60px 0 60px 0;
+  }
+  @media (max-width: 768px) {
+    .rounded{
+      border-radius: 0;
+    }
+  }

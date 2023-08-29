@@ -1,9 +1,20 @@
-import HomeBodyComponent from "@components/HomeComponent/HomeBody";
+import Menu from "../../components/menu/Menu"
+import HomeBodyComponent from '../../components/HomeBody/HomeBody'
+import FooterCurve from "../../components/FooterCurve"
+import Projects from "../../components/Projects"
+import SlidingImages from "../../components/SlidingImages"
+import Footer from "../../components/footer/Footer"
 
-export default function HomeBody (){
- return (
-    <>
-    <HomeBodyComponent/>
-    </>
- )
+const HomePage=()=>{
+    return(
+        <div>
+   <Menu/>
+            <HomeBodyComponent/>
+            <Projects/>
+<SlidingImages/>
+<FooterCurve/>
+    <Footer/>
+        </div>
+    )
 }
+export default HomePage

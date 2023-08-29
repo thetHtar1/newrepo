@@ -109,7 +109,11 @@ transition-delay: 0.8s;
     transform: translateX(0);
   }
   
-  
+ 
+    .rounded{
+      border-radius: 60px 0 60px 0;
+    }
+ 
   
   
   

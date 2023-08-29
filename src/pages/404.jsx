@@ -1,4 +1,4 @@
-import ErrorComponent from "@components/errorComponent";
+import ErrorComponent from "../components/error-component";
 
 export default function Error (){
    
