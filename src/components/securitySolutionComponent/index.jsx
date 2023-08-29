@@ -64,18 +64,18 @@ export default function SecurityComponent() {
        <div className="mt-7 md:mt-14 flex flex-col lg:flex-row gap-4 md:flex-row security-body ">
         <div className="flex flex-col gap-4 basis-1/2 securtiy-body-items" ref={(ref) => (divRefs.current[0] = ref)}>
         <div className="items-security ">
-            <h1 className="text-sm font-semibold ss:text-xl text-black">
+            <h6 className="text-sm font-semibold ss:text-xl text-black">
                 Access Control
-            </h1>
+            </h6>
             <p className="text-sm font-normal	ss:text-base text-black">
                 Solutions Availiable in Nextwork and Standalone Solition.
             </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
-            <h1 className="text-sm font-semibold  ss:text-xl text-black">
+            <h6 className="text-sm font-semibold  ss:text-xl text-black">
                Surveillance System
-            </h1>
+            </h6>
             <p className="text-sm font-normal	ss:text-base text-black">
                 H265 Models with Starlight Technology and support 4K Resolutions. Elevator Access Control
                 System Allow people access to certain floors within a sechduled time frame.
@@ -83,18 +83,18 @@ export default function SecurityComponent() {
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
-            <h1 className="text-sm font-semibold  ss:text-xl text-black">
+            <h6 className="text-sm font-semibold  ss:text-xl text-black">
             Public Address System
-            </h1>
+            </h6>
             <p className="text-sm font-normal ss:text-base	text-black">
                 Used to allow a person to address a large public areas.
             </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
-            <h1 className="text-sm font-semibold  ss:text-xl text-black">
+            <h6 className="text-sm font-semibold  ss:text-xl text-black">
           Multi Apartment Viedo Intercom System 
-            </h1>
+            </h6>
             <p className="text-sm font-normal ss:text-base	text-black">
            Standalone intercom system used to manage calls made at the entrance to a 
            building with access controlled by audiovisual communication between inside and outside. 
@@ -104,9 +104,9 @@ export default function SecurityComponent() {
         </div>
         <div className="flex flex-col gap-4 basis-1/2 securtiy-body-items" ref={(ref) => (divRefs.current[1] = ref)}>
         <div className="items-security">
-            <h1 className="text-sm font-semibold  ss:text-xl text-black">
+            <h6 className="text-sm font-semibold  ss:text-xl text-black">
                 Fire Alarm System
-            </h1>
+            </h6>
             <p className="text-sm font-normal	ss:text-base text-black">
                 To detect and warn people through visual and audio appliances when smoke, fire, carbon
                 monoxide or other
@@ -115,9 +115,9 @@ export default function SecurityComponent() {
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
-            <h1 className="text-sm font-semibold ss:text-xl text-black">
+            <h6 className="text-sm font-semibold ss:text-xl text-black">
      Automatic Gate Control System 
-            </h1>
+            </h6>
             <p className="text-sm font-normal	ss:text-base text-black">
                 Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
@@ -125,9 +125,9 @@ export default function SecurityComponent() {
             <button className="text-black underline text-sm font-normal ss:text-base">Get more info</button>
         </div>
         <div className="items-security">
-            <h1 className="text-sm font-semibold ss:text-xl text-black">
+            <h6 className="text-sm font-semibold ss:text-xl text-black">
                 Parking Guidance System
-            </h1>
+            </h6>
             <p className="text-sm font-normal	ss:text-base text-black">
             Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
