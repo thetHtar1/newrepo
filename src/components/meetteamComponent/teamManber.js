@@ -4,7 +4,7 @@ import employee2 from './team/htetsu.jpg';
 import employee3 from './team/alex.jpg';
 import employee4 from './team/sithu.jpg';
 import employee5 from './team/clover.png';
-import employee6 from './team/russ.jpg';
+import employee6 from './team/Russ.jpg';
 import employee7 from './team/liam.jpg';
 import employee8 from './team/maria.jpg';
 import employee9 from './team/wuki.jpg';
