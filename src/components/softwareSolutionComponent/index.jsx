@@ -134,7 +134,7 @@ export default function SoftwareSolutionComponent() {
                   <path d="M3.33203 16.6673H9.16536C10.0494 16.6673 10.8973 16.3161 11.5224 15.691C12.1475 15.0659 12.4987 14.218 12.4987 13.334V3.33398" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
               </button>
-              <button className="md:hidden flex forward-button1 border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white hover:forward-icon-text-white mt-3">For more details
+              <button className="md:hidden flex forward-button1 border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white hover:forward-icon-text-white mt-3 text-black">For more details
                 <svg className="forward-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.33203 7.50065L12.4987 3.33398L16.6654 7.50065" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M3.33203 16.6673H9.16536C10.0494 16.6673 10.8973 16.3161 11.5224 15.691C12.1475 15.0659 12.4987 14.218 12.4987 13.334V3.33398" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -181,7 +181,7 @@ export default function SoftwareSolutionComponent() {
               <h1 className="rany font-medium text-xl hidden sm:block lg:text-4xl text-black">Video Conferencing</h1>
               <p className="text-justify font-normal text-xs inter mt-3 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus
                 ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisq</p>
-              <button className="forward-icon-container hidden sm:block sm:flex border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-3">For more details
+              <button className="forward-icon-container hidden sm:block sm:flex border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-3 text-black">For more details
                 <svg className="forward-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.33203 7.50065L12.4987 3.33398L16.6654 7.50065" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M3.33203 16.6673H9.16536C10.0494 16.6673 10.8973 16.3161 11.5224 15.691C12.1475 15.0659 12.4987 14.218 12.4987 13.334V3.33398" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
