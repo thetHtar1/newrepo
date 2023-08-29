@@ -268,7 +268,7 @@ export default function ContactComponent() {
                 className="flex items-center gap-1 border border-solid border-black hover:bg-black hover:text-white rounded-full px-2 py-1 text-black"
                 type="submit"
               >
-                send to us <Image className="" src={sendiocn} alt="send" />
+                send to us <Image className="forward-icon" src={sendiocn} alt="send" />
               </button>
             </div>
           </form>

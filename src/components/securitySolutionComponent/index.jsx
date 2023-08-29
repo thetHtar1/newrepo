@@ -67,38 +67,38 @@ export default function SecurityComponent() {
             <h1 className="text-sm font-semibold ss:text-xl text-black">
                 Access Control
             </h1>
-            <h1 className="text-sm font-normal	ss:text-base text-black">
+            <p className="text-sm font-normal	ss:text-base text-black">
                 Solutions Availiable in Nextwork and Standalone Solition.
-            </h1>
+            </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
                Surveillance System
             </h1>
-            <h1 className="text-sm font-normal	ss:text-base text-black">
+            <p className="text-sm font-normal	ss:text-base text-black">
                 H265 Models with Starlight Technology and support 4K Resolutions. Elevator Access Control
                 System Allow people access to certain floors within a sechduled time frame.
-            </h1>
+            </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
             Public Address System
             </h1>
-            <h1 className="text-sm font-normal ss:text-base	text-black">
+            <p className="text-sm font-normal ss:text-base	text-black">
                 Used to allow a person to address a large public areas.
-            </h1>
+            </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
           Multi Apartment Viedo Intercom System 
             </h1>
-            <h1 className="text-sm font-normal ss:text-base	text-black">
+            <p className="text-sm font-normal ss:text-base	text-black">
            Standalone intercom system used to manage calls made at the entrance to a 
            building with access controlled by audiovisual communication between inside and outside. 
-                     </h1>
+                     </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         </div>
@@ -107,31 +107,31 @@ export default function SecurityComponent() {
             <h1 className="text-sm font-semibold  ss:text-xl text-black">
                 Fire Alarm System
             </h1>
-            <h1 className="text-sm font-normal	ss:text-base text-black">
+            <p className="text-sm font-normal	ss:text-base text-black">
                 To detect and warn people through visual and audio appliances when smoke, fire, carbon
                 monoxide or other
                 emergencies are present.
-            </h1>
+            </p>
             <button className="underline text-sm font-normal ss:text-base text-black">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold ss:text-xl text-black">
      Automatic Gate Control System 
             </h1>
-            <h1 className="text-sm font-normal	ss:text-base text-black">
+            <p className="text-sm font-normal	ss:text-base text-black">
                 Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
-            </h1>
+            </p>
             <button className="text-black underline text-sm font-normal ss:text-base">Get more info</button>
         </div>
         <div className="items-security">
             <h1 className="text-sm font-semibold ss:text-xl text-black">
                 Parking Guidance System
             </h1>
-            <h1 className="text-sm font-normal	ss:text-base text-black">
+            <p className="text-sm font-normal	ss:text-base text-black">
             Can provide parking solutions with guikding system for Drivers can be parked at certain places by
                 showing visual sign, Cupidatat non prodient, sunt in culpa qui officia deserunt mollit.
-            </h1>
+            </p>
             <button className="text-black underline text-sm font-normal ss:text-base">Get more info</button>
         </div>
         </div>

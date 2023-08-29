@@ -195,7 +195,7 @@ export default function AboutUsComponent() {
         </div>
         <div className='flex justify-center '>
           <Link href="/meet-the-team">
-            <button className="  border-black border border-solid  px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-[13px]  ">
+            <button className="text-black  border-black border border-solid  px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-[13px]  ">
               Meet Our Team
 
             </button>
