@@ -112,17 +112,17 @@ export default function Footer() {
                     {/* copyright */}
                     <div className='mt-12 pb-6 flex flex-col sm:flex-row text-xs justify-center sm:text-md '>
                         <div className='text-white text-center me-2'>
-                            <p className="text-xs"> © 2023 Smilax Global Co., Ltd. All Rights Reserved.  | </p>
+                            <p className="text-xs border-e-2 border-solid border-white pe-2"> © 2023 Smilax Global Co., Ltd. All Rights Reserved.   </p>
                         </div>
                         <div className='text-white text-center  flex flex-row justify-center  '>
                             <div className='relative cursor-pointer'>
                                 <Link href="/terms-of-services">
-                                    <p className='underlineani me-2 text-xs'> Terms of Services   </p>
+                                    <p className='underlineani text-xs border-e-2 border-solid border-white pe-2'> Terms of Services   </p>
                                 </Link>
                             </div>
-                            <div className='relative'>
+                            <div className='relative ps-2'>
                                 <Link href="/privacy-policy">
-                                    <p className='underlineani text-xs'>| Privacy Policy</p>
+                                    <p className='underlineani text-xs'> Privacy Policy</p>
                                 </Link>
                             </div>
                         </div>
