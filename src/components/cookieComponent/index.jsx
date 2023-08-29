@@ -47,7 +47,7 @@ export default function Cookies() {
              your browser settings. Thank you for visiting!
             </p>
             <div className="actions">
-              <button className='  text-black border-black border-2 px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white' onClick={handleAccept}>Accept</button>
+              <button className='  text-black border-black border-solid border px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white' onClick={handleAccept}>Accept</button>
               {/* <button className="absolute right-6 top-4" onClick={removeAccept}>
                 <CloseIcon />
               </button> */}

@@ -58,7 +58,7 @@ let timeoutId
                 />
 
                 <div className="nameAndPosition">
-                  <h1 className=" text-black text-center mt-[30px] lg:mt-[56px] font-semibold xl:text-[23px] lg:text-[18px] sm:text-[20px] ss:text-[18px] text-[16px] inter">{data.name}</h1>
+                  <p className="  text-center mt-[30px] lg:mt-[56px] font-semibold xl:text-[23px] lg:text-[18px] sm:text-[20px] ss:text-[18px] text-[16px] inter">{data.name}</p>
                   <p className="  text-center text-[12px] lg:text-[16px] inter italic font-light	">{data.position}</p>
                 </div>
               </div>

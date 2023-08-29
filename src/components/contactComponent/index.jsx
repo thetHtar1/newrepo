@@ -265,7 +265,7 @@ export default function ContactComponent() {
 
             <div className="flex justify-end mt-[25px] sm:mb-[48px]">
               <button
-                className="flex items-center gap-1 border border-black hover:bg-black hover:text-white rounded-full px-2 py-1 text-black"
+                className="flex items-center gap-1 border border-solid border-black hover:bg-black hover:text-white rounded-full px-2 py-1 text-black"
                 type="submit"
               >
                 send to us <Image className="" src={sendiocn} alt="send" />

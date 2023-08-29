@@ -88,7 +88,7 @@ export default function CareersComponent() {
                 </ul>
             </div>
             <div className="text-center	my-4">
-            <button className='	border-black border-2 px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
+            <button className='	border-black border-solid border px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
             </div>
             </div>
             </div>
@@ -145,7 +145,7 @@ export default function CareersComponent() {
                 </ul>
             </div>
             <div className="text-center	my-4">
-            <button className='	border border-black  px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
+            <button className='	border border-black border-solid   px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
             </div>
             </div>
             </div>
