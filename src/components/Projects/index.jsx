@@ -86,7 +86,7 @@ export default function Home() {
             <div>
               <span className='h-20 w-20 right-20 -bottom-10 sm:h-32 sm:w-32 sm:right-20 sm:-bottom-16 ss:w-32 ss:h-32 md:right-40 
          lg:h-40 lg:w-40 lg:right-60 lg:-bottom-20
-             rounded-full absolute bg-black block border boder-white-700 duration-500 '></span>
+             rounded-full absolute bg-black block  duration-500 '></span>
               <div className='relative'>
                 <span className='text-white absolute right-24 -top-2 sm:right-[7rem] sm:-top-3 ss:right-16 ss:-top-4 md:right-48 lg:right-[275px] lg:-top-4'>
                 <Link href="/about-us">

@@ -32,13 +32,13 @@
    
 }
 .circleContainer{
-    background-color: red;
+    background-color: white;
     position: relative;
     .circle{
         overflow: hidden;
         height: 1550%;
-        width: 110%;
-        left: -5%;
+        width: 101%;
+        left: -0.5%;
         border-radius:0 0 50% 50%;
         background-color: white;
         z-index: 1;
