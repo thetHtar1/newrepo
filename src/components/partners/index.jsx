@@ -57,7 +57,7 @@ export default function PartnersComponent (){
                 </div>
             </div>
             <div  className="flex justify-center mt-[50px] sm:mt-[58px]">
-     <button  onClick={() => setShowModal(true)} className="flex justify-center mt-[50px] sm:mt-[58px] border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-[13px]  ">
+     <button  onClick={() => setShowModal(true)} className="text-black flex justify-center mt-[50px] sm:mt-[58px] border-black border border-solid px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white mt-[13px]  ">
      Be a partner with us
                      
                      </button> 
