@@ -94,7 +94,7 @@ export default function CareersComponent() {
                           </div>
                           <div className="text-center	my-4">
                             <Link href='/career-application-form'>
-                          <button className='	border-black border-solid border px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white'><span className="flex ">Upload your cv <Icon className='mt-1 ms-3' icon="bi:upload" /></span> </button>
+                          <button className='text-black	border-black border-solid border px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white'><span className="flex ">Upload your cv <Icon className='mt-1 ms-3' icon="bi:upload" /></span> </button>
                           </Link>
                           </div>
                           </div>
