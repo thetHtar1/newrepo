@@ -3,7 +3,7 @@ export default function TeamServiceComponent () {
         <>
         <div className="px-4 ss:px-8 lg:px-16 inter text-black">
         <div className="pt-3 job-banner mt-[86px] sm:mt-[118px]">
-        <h1 className="rany text-3xl font-medium ss:text-4xl md:text-6xl lg:text-7xl ">
+        <h1 className="rany text-3xl font-medium ss:text-4xl md:text-6xl lg:text-7xl text-black">
            Terms of Services
         </h1>
        </div>

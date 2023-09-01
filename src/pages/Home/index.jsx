@@ -1,4 +1,4 @@
-import Menu from "../../components/menu/Menu"
+import Menu from '../../components/menu/Menu'
 import HomeBodyComponent from '../../components/HomeBody/HomeBody'
 import FooterCurve from "../../components/FooterCurve"
 import Projects from "../../components/Projects"

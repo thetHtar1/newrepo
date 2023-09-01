@@ -2,18 +2,23 @@
 import { useState, useRef, useEffect } from "react";
 import {ArrowDownIcon} from '@chakra-ui/icons'
 import { ArrowUpIcon } from "@chakra-ui/icons";
-
+import {CareerData} from './careerdata'
+import { Icon } from '@iconify/react';
+import Link from "next/link";
 
 export default function CareersComponent() {
   const [openDropdowns, setOpenDropdowns] = useState([]);
   const textRef = useRef(null);
 
   const toggleDropdown = (index) => {
+ 
     setOpenDropdowns((prevOpenDropdowns) => {
       const updatedOpenDropdowns = [...prevOpenDropdowns];
       updatedOpenDropdowns[index] = !updatedOpenDropdowns[index];
       return updatedOpenDropdowns;
+  
     });
+
   };
 
   useEffect(() => {
@@ -35,120 +40,68 @@ export default function CareersComponent() {
             </div>
            
             </div>
-         
-            <div className="border-y border-gray-400 py-2 sm:py-4 lg:py-8 mt-8 " onClick={() => toggleDropdown(0)}>
-            <div className="flex justify-between " >
-                <h1 className="sm:text-2xl lg:text-2xl text-black">
-                    Senior Q.A Taster
-                </h1>
-                <div className="flex">
-                    <h1 className="sm:text-2xl lg:text-2xl text-black">1 post</h1>
-                    {openDropdowns[0] ? (
-                  <ArrowUpIcon
-                    className="mt-1 sm:text-2xl lg:text-2xl"
-                    onClick={() => toggleDropdown(0)}
-                  />
-                ) : (
-                  <ArrowDownIcon
-                    className="mt-1 sm:text-2xl lg:text-2xl"
-                    onClick={() => toggleDropdown(0)}
-                  />
-                )}
-                </div>
+            {CareerData?.map((data, index) => (
+            
+                          <div key={index} className="border-t border-gray-400 py-2 sm:py-4 lg:py-4  " onClick={() => toggleDropdown(data.id)}>
+                          <div className="flex justify-between " >
+                              <h1 className="sm:text-2xl lg:text-2xl text-black">
+                                  {data.position}
+                              </h1>
+                              <div className="flex">
+                                  <h1 className="sm:text-2xl lg:text-2xl text-black">{data.positionQty}</h1>
+                                  {openDropdowns[data.id] ? (
+                                <ArrowUpIcon
+                                  className="mt-1 sm:text-2xl lg:text-2xl"
+                                  onClick={() => toggleDropdown(data.id)}
+                                />
+                              ) : (
+                                <ArrowDownIcon
+                                  className="mt-1 sm:text-2xl lg:text-2xl"
+                                  onClick={() => toggleDropdown(data.id)}
+                                />
+                              )}
+                              </div>
+              
+                          </div>
+                          <div className={`details ${openDropdowns[data.id] ? "open" : "closed"}`}>
+                          <div className="mt-4">
+                              <h1 className="text-sm text-black">Job Description:</h1>
+                              <h1 className="text-sm text-black">{data.jobDescription}</h1>
+                          </div>
+                          <div>
+                              <h1 className="text-sm text-black">Responsibilities :</h1>
+                              <ul >
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Responsibility1}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Responsibility2}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Responsibility3}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Responsibility4}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Responsibility5}</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <h1 className="text-sm text-black">Requirements :</h1>
+                              <ul>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements1}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements2}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements3}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements4}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements5}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements6}</li>
+                                  <li className="list-disc text-sm ml-4 text-black">{data.Requirements7}</li>
+              
+              
+                              </ul>
+                          </div>
+                          <div className="text-center	my-4">
+                            <Link href='/career-application-form'>
+                          <button className='	border-black border-solid border px-2 rounded-2xl md:py-1 md:rounded-3xl hover:bg-black hover:text-white'><span className="flex ">Upload your cv <Icon className='mt-1 ms-3' icon="bi:upload" /></span> </button>
+                          </Link>
+                          </div>
+                          </div>
+                          </div>
+            ))} 
 
-            </div>
-            <div className={`details ${openDropdowns[0] ? "open" : "closed"}`}>
-            <div className="mt-4">
-                <h1 className="text-sm text-black">Job Description:</h1>
-                <h1 className="text-sm text-black">We are seeking a highly motivated and experienced .NET Developer to join our team. The ideal candidate will have a strong background
-                     in developing web applications using .NET and related technologies.</h1>
-            </div>
-            <div>
-                <h1 className="text-sm text-black">Responsibilities</h1>
-                <ul >
-                    <li className="list-disc text-sm ml-4 text-black">Develop and maintain web applications using C#, .NET, and related technologies</li>
-                    <li className="list-disc text-sm ml-4 text-black">Participate in the full software development life cycle, from requirements gathering and design to implementation and testing</li>
-                    <li className="list-disc text-sm ml-4 text-black">Collaborate with cross-functional teams, including business analysts, project managers, and other developers, to deliver high-quality solutions</li>
-                    <li className="list-disc text-sm ml-4 text-black">Write clean, well-documented, and reusable code</li>
-                    <li className="list-disc text-sm ml-4 text-black">Perform code reviews and provide feedback to other developers</li>
-                </ul>
-            </div>
-            <div>
-                <h1 className="text-sm text-black">Requirements</h1>
-                <ul>
-                    <li className="list-disc text-sm ml-4 text-black">Bachelor`&apos;`s degree in Computer Science or related field</li>
-                    <li className="list-disc text-sm ml-4 text-black">3+ years of experience in developing web applications using .NET and related technologies</li>
-                    <li className="list-disc text-sm ml-4 text-black">Strong experience with C#, ASP.NET, and MVC</li>
-                    <li className="list-disc text-sm ml-4 text-black">Experience with JavaScript frameworks such as Angular, React, or Vue</li>
-                    <li className="list-disc text-sm ml-4 text-black">Familiarity with relational databases, such as SQL Server or Oracle</li>
-                    <li className="list-disc text-sm ml-4 text-black">Strong analytical and problem-solving skills</li>
-                    <li className="list-disc text-sm ml-4 text-black">Excellent verbal and written communication skills</li>
-
-
-                </ul>
-            </div>
-            <div className="text-center	my-4">
-            <button className='	border-black border-solid border px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
-            </div>
-            </div>
-            </div>
-
-            <div className="border-b border-gray-400  py-2 sm:py-4 lg:py-8 "   onClick={() => toggleDropdown(1)}>
-            <div className="flex justify-between  ">
-                <h1 className="sm:text-2xl lg:text-2xl text-black">
-                    Senior .net Developer
-                </h1>
-                <div className="flex">
-                    <h1 className="sm:text-2xl lg:text-2xl text-black">1 post</h1>
-                    {openDropdowns[1] ? (
-                  <ArrowUpIcon
-                    className="mt-1 sm:text-2xl lg:text-2xl"
-                    onClick={() => toggleDropdown(1)}
-                  />
-                ) : (
-                  <ArrowDownIcon
-                    className="mt-1 sm:text-2xl lg:text-2xl"
-                    onClick={() => toggleDropdown(1)}
-                  />
-                )}
-                </div>
-
-            </div>
-            <div className={`details ${openDropdowns[1] ? "open" : "closed"}`}>
-            <div className="mt-4">
-                <h1 className="text-sm text-black">Job Description:</h1>
-                <h1 className="text-sm text-black">We are seeking a highly motivated and experienced .NET Developer to join our team. The ideal candidate will have a strong background
-                     in developing web applications using .NET and related technologies.</h1>
-            </div>
-            <div>
-                <h1 className="text-sm text-black">Responsibilities</h1>
-                <ul >
-                    <li className="list-disc text-sm ml-4 text-black">Develop and maintain web applications using C#, .NET, and related technologies</li>
-                    <li className="list-disc text-sm ml-4 text-black">Participate in the full software development life cycle, from requirements gathering and design to implementation and testing</li>
-                    <li className="list-disc text-sm ml-4 text-black">Collaborate with cross-functional teams, including business analysts, project managers, and other developers, to deliver high-quality solutions</li>
-                    <li className="list-disc text-sm ml-4 text-black">Write clean, well-documented, and reusable code</li>
-                    <li className="list-disc text-sm ml-4 text-black">Perform code reviews and provide feedback to other developers</li>
-                </ul>
-            </div>
-            <div>
-                <h1 className="text-sm text-black">Requirements</h1>
-                <ul>
-                    <li className="list-disc text-sm ml-4 text-black">Bachelor`&apos;`s degree in Computer Science or related field</li>
-                    <li className="list-disc text-sm ml-4 text-black">3+ years of experience in developing web applications using .NET and related technologies</li>
-                    <li className="list-disc text-sm ml-4 text-black">Strong experience with C#, ASP.NET, and MVC</li>
-                    <li className="list-disc text-sm ml-4 text-black">Experience with JavaScript frameworks such as Angular, React, or Vue</li>
-                    <li className="list-disc text-sm ml-4 text-black">Familiarity with relational databases, such as SQL Server or Oracle</li>
-                    <li className="list-disc text-sm ml-4 text-black">Strong analytical and problem-solving skills</li>
-                    <li className="list-disc text-sm ml-4 text-black">Excellent verbal and written communication skills</li>
-
-
-                </ul>
-            </div>
-            <div className="text-center	my-4">
-            <button className='	border border-black border-solid   px-8 rounded-2xl md:px-20 md:py-1 md:rounded-3xl hover:bg-black hover:text-white'>Upload your cv </button>
-            </div>
-            </div>
-            </div>
+<hr className="h-px bg-gray-400 border-0 "></hr>
 
  
           

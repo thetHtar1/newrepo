@@ -9,7 +9,7 @@ import sendiocn from "../../../public/svg/send.svg"
 import { useState, useEffect } from 'react'
 import { useForm } from "react-hook-form";
 import { useScroll, useTransform, motion } from 'framer-motion';
-import { Icon } from '@iconify/react';
+
 
 
 const Suboptions = [
@@ -268,7 +268,7 @@ export default function ContactComponent() {
                 className="flex items-center gap-1 border border-solid border-black hover:bg-black hover:text-white rounded-full px-2 py-1 text-black"
                 type="submit"
               >
-                send to us <Icon icon="quill:send" />
+                send to us <Image className="forward-icon" src={sendiocn} alt="send" />
               </button>
             </div>
           </form>

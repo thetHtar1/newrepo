@@ -11,7 +11,7 @@ const SubLinks = () => {
                 <div key={data.id}>
                     <div className=" px-3 md:cursor-pointer group font-inter ">
                         <Link href={data.url}>
-                            <h1
+                            <h6
                                 className=" inter py-6 lg:hover:text-black  text-gray-500 transition-800 flex sm:justify-between items-center sm:pr-0 pr-5 text-md sm:text-[14px]	lg:text-md "
                                 onClick={() =>
                                     heading !== data.name ? setHeading(data.name) : setHeading("")
@@ -48,7 +48,7 @@ const SubLinks = () => {
                   <ion-icon name="chevron-down"></ion-icon>
                 </span> */}
                                 {/* down button */}
-                            </h1>
+                            </h6>
                         </Link>
                         {data.submenu && (
                             <div className=' '>
@@ -90,9 +90,9 @@ const SubLinks = () => {
                             <div key={sname.id} >
                                 <div>
                                     <Link href={sname.setUrl}>
-                                        <h1 className="py-4 pl-7 font-lg sm:pr-0 pr-5">
+                                        <h6 className="py-4 pl-7 font-lg sm:pr-0 pr-5">
                                             {sname.title}
-                                        </h1>
+                                        </h6>
                                     </Link>
                                 </div>
                             </div>

@@ -14,7 +14,6 @@
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
-    "@iconify/react": "^4.1.1",
     "@types/node": "^20.5.7",
     "animate.css": "^4.1.1",
     "autoprefixer": "10.4.14",

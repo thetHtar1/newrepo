@@ -70,7 +70,7 @@ border: 1px solid #777676;
     }
     .nameAndPosition{
       font-size: 12px;
-      color: #fff;
+      color: #000;
       margin-top: 195px;
       z-index: 3;
       transition: color 0.3s ease-out;
