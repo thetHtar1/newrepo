@@ -44,11 +44,11 @@ export default function CareersComponent() {
             
                           <div key={index} className="border-t border-gray-400 py-2 sm:py-4 lg:py-4  " onClick={() => toggleDropdown(data.id)}>
                           <div className="flex justify-between " >
-                              <h1 className="sm:text-2xl lg:text-2xl text-black">
+                              <h6 className="sm:text-2xl lg:text-2xl text-black">
                                   {data.position}
-                              </h1>
+                              </h6>
                               <div className="flex">
-                                  <h1 className="sm:text-2xl lg:text-2xl text-black">{data.positionQty}</h1>
+                                  <h6 className="sm:text-2xl lg:text-2xl text-black">{data.positionQty}</h6>
                                   {openDropdowns[data.id] ? (
                                 <ArrowUpIcon
                                   className="mt-1 sm:text-2xl lg:text-2xl"
